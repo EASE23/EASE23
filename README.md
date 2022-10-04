@@ -16,8 +16,8 @@ The training and test data for the three prediction tasks can be found here:
 ## 2.1 Clone Repository
 Clone the repository and checkout the **submission** branch:
 ```
-git clone https://github.com/EASE23/EASE.git
-cd EASE
+git clone https://github.com/EASE23/EASE23.git
+cd EASE23
 git checkout submission
 ```
 ## 2.2 Jupyter Notebooks
