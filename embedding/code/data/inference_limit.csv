@@ -1,0 +1,8 @@
+,graph_name,time_slowest_partitioner,time_all_partitioners
+0,com-orkut.ungraph,54.985525,329.501671
+1,enwiki-2021,68.338633,367.816813
+2,eu-2015-host,107.197725,636.802942
+3,eu-2015-tpd,57.907909,304.540873
+4,gsh-2015-tpd,351.064159,1817.086446
+5,hollywood-2011,61.52481,385.148611
+6,out.orkut-groupmemberships,190.960937,928.469533
