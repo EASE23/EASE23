@@ -57,6 +57,7 @@ Train models with the following juyper notebooks:
 - [Support Vector Regression (SVR)](quality/notebooks/SVR.ipynb)
 - [Random Forest Regressor (RFR)](quality/notebooks/RFR.ipynb)
 - [Polynomial Regression](/quality/notebooks/PolyRegression.ipynb)
+- [MLP](/quality/notebooks/MLP.ipynb)
 
 Please find the reported scores in this [notebook](quality/notebooks/Plotter.ipynb).
 
@@ -100,5 +101,6 @@ EASE's suggestion:
 ```
 
 
-
+# Graph Neural Network (GNN) Experiments
+Please find the experiments [here](embedding). 
 

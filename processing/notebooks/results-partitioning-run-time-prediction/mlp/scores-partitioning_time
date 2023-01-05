@@ -1,0 +1,357 @@
+,r2,rmse,mape,partitioner,graph,model,rmat_best_params,rmat_cv_score,rmat_cv_scores,rmat_best_index,training_approach
+0,,20.14553411458739,0.6207729851501108,hep1,eu-2015-tpd,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+1,,5.910291794050401,0.29053762212794393,1dd,eu-2015-tpd,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+2,,53.40062684889117,0.9221646536898989,ne,eu-2015-tpd,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+3,,5.840789845282956,0.31851034562113256,2d,eu-2015-tpd,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+4,,26.147133783394146,0.728225942212353,2ps,eu-2015-tpd,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+5,,8.384447335315055,0.6705070019072168,dbh,eu-2015-tpd,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+6,,18.24058305744505,0.6025481971929568,hep10,eu-2015-tpd,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+7,,6.271987765911241,0.32314909020943117,crvc,eu-2015-tpd,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+8,,6.761314151286683,0.3568848525431857,1ds,eu-2015-tpd,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+9,,21.58916132456511,0.55525980248611,hep100,eu-2015-tpd,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+10,,4.817141708349059,0.2459936543138143,hdrf,eu-2015-tpd,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+11,,10.017781179277598,0.31410478163887323,hep1,enwiki-2021,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+12,,1.8574027496464645,0.09324693903828303,1dd,enwiki-2021,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+13,,4.80158182090377,0.07026160182197046,ne,enwiki-2021,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+14,,2.3423856619924237,0.12209114589279793,2d,enwiki-2021,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+15,,13.83707599473599,0.267726043497223,2ps,enwiki-2021,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+16,,0.7305860607146677,0.05151513955712407,dbh,enwiki-2021,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+17,,11.862958397488129,0.25900683765795185,hep10,enwiki-2021,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+18,,2.0537398529842257,0.1087813710595909,crvc,enwiki-2021,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+19,,1.739151027482869,0.08600283391485465,1ds,enwiki-2021,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+20,,16.747677510665802,0.2990142447227656,hep100,enwiki-2021,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+21,,0.6037004636511973,0.027818040372447072,hdrf,enwiki-2021,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+22,,24.68471593984941,0.6486351791462274,hep1,hollywood-2011,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+23,,11.868943721347515,0.42945253357743923,1dd,hollywood-2011,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+24,,19.76163446495562,0.32119781377554224,ne,hollywood-2011,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+25,,13.014531494962391,0.4687786331746425,2d,hollywood-2011,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+26,,23.887699711419003,0.503831421881673,2ps,hollywood-2011,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+27,,5.171929456875983,0.30176661656463327,dbh,hollywood-2011,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+28,,18.282101209059554,0.45823253628649363,hep10,hollywood-2011,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+29,,10.944818941446853,0.4544865390838875,crvc,hollywood-2011,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+30,,12.214499957089293,0.5076632001218481,1ds,hollywood-2011,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+31,,26.544504941569947,0.5235596976202421,hep100,hollywood-2011,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+32,,10.315604192257407,0.383801518048215,hdrf,hollywood-2011,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+33,,14.697509956533722,0.16932241204458331,hep1,out.orkut-groupmemberships,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+34,,5.368622288504035,0.12285480765563184,1dd,out.orkut-groupmemberships,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+35,,19.402506031892017,0.1016045812128164,ne,out.orkut-groupmemberships,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+36,,6.741177856204629,0.12137895415055068,2d,out.orkut-groupmemberships,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+37,,2.5457990455980166,0.0188346880306128,2ps,out.orkut-groupmemberships,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+38,,0.8839595867630834,0.026625253471443695,dbh,out.orkut-groupmemberships,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+39,,3.5477542849872776,0.03406267079308572,hep10,out.orkut-groupmemberships,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+40,,1.1408759086462155,0.02532239196708147,crvc,out.orkut-groupmemberships,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+41,,10.127369369003567,0.20736005245675163,1ds,out.orkut-groupmemberships,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+42,,9.855822963621307,0.07257440144590971,hep100,out.orkut-groupmemberships,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+43,,0.9876495709486335,0.020052305770470638,hdrf,out.orkut-groupmemberships,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+44,,8.473337864686584,0.25855431470632306,hep1,com-orkut.ungraph,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+45,,5.871271866380454,0.32212385093386925,1dd,com-orkut.ungraph,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+46,,20.50212254130792,0.37286399541166365,ne,com-orkut.ungraph,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+47,,3.372613594846669,0.20023563154219579,2d,com-orkut.ungraph,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+48,,17.42453590716857,0.38180141812095036,2ps,com-orkut.ungraph,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+49,,6.179558897523664,0.4899043482688188,dbh,com-orkut.ungraph,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+50,,18.989378971075602,0.4088076400719078,hep10,com-orkut.ungraph,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+51,,2.4546344041213963,0.1447634848764734,crvc,com-orkut.ungraph,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+52,,7.114506524172121,0.47739449230201647,1ds,com-orkut.ungraph,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+53,,8.45892861173349,0.17076840215112046,hep100,com-orkut.ungraph,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+54,,7.245172210990745,0.35207351115275043,hdrf,com-orkut.ungraph,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+55,,5.7891621826726976,0.03161084404427702,hep1,gsh-2015-tpd,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+56,,24.284942588627686,0.2560547209224445,1dd,gsh-2015-tpd,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+57,,75.0805301610763,0.2138655520259939,ne,gsh-2015-tpd,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+58,,31.284752029469274,0.3684919666167456,2d,gsh-2015-tpd,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+59,,72.13363894386725,0.27915865394307904,2ps,gsh-2015-tpd,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+60,,18.536047156393735,0.27190786355062263,dbh,gsh-2015-tpd,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+61,,18.086848977299383,0.07755094654492313,hep10,gsh-2015-tpd,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+62,,30.027543258420692,0.3602084574223324,crvc,gsh-2015-tpd,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+63,,26.2474661379935,0.3429011484899887,1ds,gsh-2015-tpd,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+64,,50.7638808755824,0.1785460476120103,hep100,gsh-2015-tpd,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+65,,26.38275363946103,0.266158217364517,hdrf,gsh-2015-tpd,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+66,,32.027475543358406,0.4385851350283628,hep1,eu-2015-host,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+67,,12.71322510046977,0.30025465102987364,1dd,eu-2015-host,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+68,,106.93820228209937,0.9975790277461519,ne,eu-2015-host,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+69,,9.103581658735393,0.21044855408877852,2d,eu-2015-host,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+70,,73.88962663076936,1.1739198188021909,2ps,eu-2015-host,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+71,,10.455388875527632,0.3640426582770274,dbh,eu-2015-host,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+72,,27.158822998282247,0.34560333483345906,hep10,eu-2015-host,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+73,,17.269948198218415,0.4445442670945909,crvc,eu-2015-host,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+74,,9.449808650046045,0.25281655112571977,1ds,eu-2015-host,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+75,,51.00249603470576,0.6165094012200796,hep100,eu-2015-host,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+76,,11.744435265850406,0.2811025019816443,hdrf,eu-2015-host,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+77,0.8657236643368755,18.756414245715654,0.35451223596553677,hep1,all,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+78,0.7750953524650102,11.915966399987749,0.2592178750407837,1dd,all,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+79,0.7079794172498686,54.94785023505178,0.4285053179548624,ne,all,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+80,0.6532176130536382,13.77061331008593,0.2585621758695491,2d,all,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+81,0.6839861467420167,42.120225562333935,0.4790711409268689,2ps,all,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+82,0.7558349571733226,9.176445786120324,0.31089555451384104,dbh,all,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+83,0.9261103592888585,17.910901403446264,0.31225888048296824,hep10,all,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+84,0.597140001786002,13.992732973036034,0.2658936573876268,crvc,all,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+85,0.6133060072922583,12.701755785024583,0.3187175901363378,1ds,all,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+86,0.8528570771200504,31.1634040277134,0.3451759996083196,hep100,all,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+87,0.7917409726088354,12.05600277097087,0.22528567842912275,hdrf,all,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners
+88,0.8328839561361944,25.858788631279065,0.323463282392347,all,all,MLP,"{'regressor__feature_selection__features': ['num_edges', 'num_vertices', 'pearson_mode_degrees_in', 'pearson_mode_degrees_out', 'mean_degree', 'density', 'mean_triangles', 'average_lcc', '1dd', '1ds', '2d', '2ps', 'crvc', 'dbh', 'hdrf', 'hep1', 'hep10', 'hep100', 'ne'], 'regressor__regressor__hidden_layer_sizes': (64, 64)}",-0.13753041682180822,"[-0.2983083  -0.30193356 -0.25594735 -0.22714671 -0.33018433 -0.24910549
+ -0.23709775 -0.22464832 -0.30788172 -0.2806211  -0.24243959 -0.22039029
+ -0.33238949 -0.26217999 -0.24146867 -0.20521998 -0.31117027 -0.28107481
+ -0.17147291 -0.14535144 -0.25803777 -0.2387822  -0.16455487 -0.13753042]",23,single-model-for-all-partitioners

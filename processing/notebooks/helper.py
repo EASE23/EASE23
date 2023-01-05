@@ -62,6 +62,10 @@ from sklearn.metrics import make_scorer
 import datetime
 import time
 
+from sklearn.neural_network import MLPRegressor
+from sklearn.datasets import make_regression
+from sklearn.model_selection import train_test_split
+
 
 TOTAL_TIME = "total_time"
 PROCESSING_TIME = "processing_time"
@@ -177,6 +181,13 @@ def get_general_pipline(
     )
    # print("PARAMETERS", m.get_params().keys())
     return m
+
+
+def get_mlp_pipeline(feature_combinations, grid_search):
+    regressor_steps = [("regressor", MLPRegressor(hidden_layer_sizes=(16,100),random_state=1))]
+    return get_general_pipline(feature_combinations=feature_combinations, regressor_steps=regressor_steps, grid_search=grid_search)
+
+
 
 def get_rfr_pipeline(feature_combinations, grid_search):
     """Create the random forests pipeline
@@ -329,6 +340,17 @@ def get_model(model_name, feature_combinations):
         }
         grid_search['regressor__feature_selection__features'] = feature_combinations
         return  get_knn(feature_combinations=feature_combinations, grid_search=grid_search)
+    if model_name == "MLP":
+        grid_search = {
+            'regressor__regressor__hidden_layer_sizes': [# theses are only the hidden layers. Therefore, in addition, we have one input layer and one output layer.
+               (8, 4), (16, 8), (32, 16), (64,32), (8, 8), (16,16), (32, 32), (64, 64),
+                (8, 8, 4), (16, 16, 8), (32, 32, 16), (64,64, 32), (8, 8, 8), (16, 16, 16), (32, 32, 32), (64, 64, 64),
+                 (8, 8, 4, 4), (16, 16, 8, 8), (32, 32, 16, 16), (64, 64, 32, 32), (32, 32, 16, 8), (64, 64, 32, 16)
+            ]
+
+        }
+        grid_search['regressor__feature_selection__features'] = feature_combinations
+        return get_mlp_pipeline(feature_combinations=feature_combinations, grid_search=grid_search)
    
 def powerset(s):
     """ Creates the powerset of s
@@ -778,6 +800,7 @@ FINAL_QUALITY_MODELS_EASY = [
           {"target": "replication_factor", "timestamp": "2022-03-18-11:06:38", "model_name": "XGB", "featureset": "Easy", "enrichment_level": "0.0"},
      ]
 
+"""
 
 ease = EASE(
     partitioning_model_name=FINAL_PARTITIONING_MODEL_NAME, 
@@ -851,6 +874,9 @@ ease_importance = EASE(
      ],
     number_iterations=100)
 
+"""
+
+
 def get_importance(gl):
     results_dfs = []
     for target in ["replication_factor", "vertex_balance", "destination_balance", "source_balance", "edge_balance"]:
@@ -887,3 +913,4 @@ def get_importance(gl):
     accumulate = accumulate.round(3)
     accumulate
     print(accumulate.sort_values(by="replication_factor", ascending=False).to_latex(index=False))
+    

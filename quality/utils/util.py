@@ -41,7 +41,7 @@ import datetime
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 
-
+from sklearn.neural_network import MLPRegressor
 
 
 # If set to true, the machine learning models will be serialized for 0% and 100% enrichment. 
@@ -758,6 +758,54 @@ def get_knn(features, neighbors, ps):
         verbose=10, 
         cv=5)
     return knn_model
+
+
+def get_mlp(features, hidden_layer_sizes=[(16,100)]):
+    """Creates MLP Pipeline.
+    
+    Parameters
+    ----------
+    features: array-like
+        The features to consider.
+    
+
+    
+    Returns
+    -------
+    pipline:
+        The pipline incl. grid-search over the provided parameters.
+        
+    """
+        
+    mlp_pipline = Pipeline(
+        steps=[
+            ('feature_selection', ColumnTransformer.ColumnTransformer()),
+            ('scalar', StandardScaler()),
+            ('regressor', MLPRegressor(hidden_layer_sizes=(16,100),random_state=1))
+        ]
+    )
+    
+    mlp_transformed = TransformedTargetRegressor(
+        regressor=mlp_pipline, 
+        func=target_transform, 
+        inverse_func=inverse_target_transform
+    )
+
+    mlp_grid = {
+        'regressor__feature_selection__features': features,
+        'regressor__regressor__hidden_layer_sizes': hidden_layer_sizes
+    }
+
+    mlp_model = GridSearchCV(
+        mlp_transformed, 
+        mlp_grid, 
+        scoring=my_func,
+        n_jobs=-1, 
+        verbose=10, 
+        cv=5)
+    return mlp_model
+
+
 
 
 
