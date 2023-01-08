@@ -26,7 +26,7 @@ python code/inference_cpu.py --graph graph --out_dir code/results/cpu/graph_1
 
 # Results
 ## Plot
-The following plot shows the inference time (average of five runs) on a GPU, CPU and our approach for all graphs of Table IV. 
+The following plot shows the inference time (average of five runs) on a GPU, CPU and our approach for all graphs of Table IV. The y-axis is displayed on a logarithmic scale.
 
 On the medium sized GPU we cannot perform inference at all, because we run out of GPU memory for all graphs. Therefore, we only report inference times for the large GPU. Even on the large GPU, we can only perform inference on the four smaller graphs of Table IV but run out of GPU memory for the remaining ones. This is due to the fact that for graph prediction, the whole graph must be loaded into memory of the GPU.
 
