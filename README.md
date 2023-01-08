@@ -14,11 +14,11 @@ The training and test data for the three prediction tasks can be found here:
 
 # 2 Installation
 ## 2.1 Clone Repository
-Clone the repository and checkout the **submission** branch:
+Clone the repository and checkout the **revision** branch:
 ```
 git clone https://github.com/EASE23/EASE23.git
 cd EASE23
-git checkout submission
+git checkout revision
 ```
 ## 2.2 Jupyter Notebooks
 Jupyter Notebooks was used to train the three prediction components of EASE and to create plots.  
